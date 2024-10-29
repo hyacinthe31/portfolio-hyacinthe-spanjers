@@ -227,7 +227,7 @@ export default function Home() {
           <Carousel className="w-full md:w-[55%] flex items-center justify-center" opts={{loop: true, startIndex: diapIndex}}>
             <CarouselContent>
               <CarouselItem>
-                <Card className="md:p-4">
+                <Card className="md:p-4 mx-1 md:mx-0">
                   <CardHeader>
                     <CardTitle className="text-3xl text-center">Création du site web <LinkPreview url="https://toutouffe.com" className="underline" side="bottom">toutouffe.com</LinkPreview></CardTitle>
                   </CardHeader>
@@ -258,7 +258,7 @@ export default function Home() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-              <Card className="md:p-4">
+              <Card className="md:p-4 mx-1 md:mx-0">
                   <CardHeader>
                     <CardTitle className="text-3xl text-center">Développeur full-stack chez Pet&apos;s Rescue</CardTitle>
                   </CardHeader>
@@ -289,7 +289,7 @@ export default function Home() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-              <Card className="md:p-4">
+              <Card className="md:p-4 mx-1 md:mx-0">
                   <CardHeader>
                     <CardTitle className="text-3xl text-center">Développeur full-stack chez Technal</CardTitle>
                   </CardHeader>
@@ -320,7 +320,7 @@ export default function Home() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-              <Card className="md:p-4">
+              <Card className="md:p-4 mx-1 md:mx-0">
                   <CardHeader>
                     <CardTitle className="text-3xl text-center">Développeur full-stack chez Klee Group</CardTitle>
                   </CardHeader>
