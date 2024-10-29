@@ -109,7 +109,7 @@ export default function Home() {
               <Image src='/toutouffe-logo.png' alt="Pet's Rescue France logo" width={200} height={100} className="dark:invert"/>
             </div>
           </div>
-          <p className="text-lg my-4">Développement complet d'un site de e-commerce responsive en Next.js avec React et Typescript</p>
+          <p className="text-lg my-4">Développement complet d&apos;un site de e-commerce responsive en Next.js avec React et Typescript</p>
           <Button className="mt-4" onClick={() => changeDiap(0)}><Link href="#mesProjets">En savoir plus</Link></Button>
         </div>
       )
@@ -119,7 +119,7 @@ export default function Home() {
       content: (
         <div>
           <div className="flex items-center">
-            <h2 className="text-2xl md:text-3xl">Développeur full-stack chez Pet's Rescue France (Consultant Astek)</h2>
+            <h2 className="text-2xl md:text-3xl">Développeur full-stack chez Pet&apos;s Rescue France (Consultant Astek)</h2>
             <div className="hidden md:block">
               <Image src='/petrescue-logo.jpg' alt="Pet's Rescue France logo" width={100} height={100} className="mix-blend-darken dark:mix-blend-normal"/>
             </div>
@@ -127,7 +127,7 @@ export default function Home() {
               <Image src='/astek-logo.png' alt="Astek logo" width={100} height={100} className="bg-white mix-blend-darken dark:mix-blend-normal"/>
             </div>
           </div>
-          <p className="text-lg my-4">Développement d'une application web pour adopter des poules en Symfony 6 et Vue.js 3</p>
+          <p className="text-lg my-4">Développement d&apos;une application web pour adopter des poules en Symfony 6 et Vue.js 3</p>
           <Button className="mt-4" onClick={() => changeDiap(1)}><Link href="#mesProjets">En savoir plus</Link></Button>
         </div>
       )
@@ -145,7 +145,7 @@ export default function Home() {
               <Image src='/astek-logo.png' alt="Astek logo" width={100} height={100} className="bg-white mix-blend-darken dark:mix-blend-normal"/>
             </div>
           </div>
-          <p className="text-lg my-4">Développement d'une application intranet en PHP pour simplifier le travail des employés</p>
+          <p className="text-lg my-4">Développement d&apos;une application intranet en PHP pour simplifier le travail des employés</p>
           <Button className="mt-4" onClick={() => changeDiap(2)}><Link href="#mesProjets">En savoir plus</Link></Button>
         </div>
       )
@@ -160,7 +160,7 @@ export default function Home() {
               <Image src='/klee-logo.png' alt="Klee logo" width={100} height={100} className="bg-white mix-blend-darken dark:mix-blend-normal"/>
             </div>
           </div>
-          <p className="text-lg my-4">Développement web d'une application de gestion de budget pour le ministère de la des armées, utilisation du framework Symfony 6</p>
+          <p className="text-lg my-4">Développement web d&apos;une application de gestion de budget pour le ministère de la des armées, utilisation du framework Symfony 6</p>
           <Button className="mt-4" onClick={() => changeDiap(3)}><Link href="#mesProjets">En savoir plus</Link></Button>
         </div>
       )
@@ -175,7 +175,7 @@ export default function Home() {
               <Image src='/tranzition-logo.png' alt="Tranzition logo" width={100} height={100} className="mix-blend-darken dark:mix-blend-normal"/>
             </div>
           </div>
-          <p className="text-lg my-4">Programmation avec l'environnement Zoho principalement dans le CRM, utilisation d'API et de différents langages de programmations</p>
+          <p className="text-lg my-4">Programmation avec l&apos;environnement Zoho principalement dans le CRM, utilisation d&apos;API et de différents langages de programmations</p>
         </div>
       )
     },
@@ -234,9 +234,9 @@ export default function Home() {
                   <CardContent>
                     <div className="flex flex-col md:flex-row">
                       <div className="md:w-1/2">
-                        <p>Réalisation d'un site e-commerce responsive réactif et optimisé avec Next.js, React et TypeScript pour améliorer mes compétences en développement frontend.
+                        <p>Réalisation d&apos;un site e-commerce responsive réactif et optimisé avec Next.js, React et TypeScript pour améliorer mes compétences en développement frontend.
                            L&apos;architecture inclut une base de données PostgreSQL permettant de gérer les avis clients et les informations relatives aux achats de produits.
-                            J&apos;ai intégré les API de Stripe pour la gestion des paiements sécurisés et Brevo pour l&apos;envoi automatisé d'emails.
+                            J&apos;ai intégré les API de Stripe pour la gestion des paiements sécurisés et Brevo pour l&apos;envoi automatisé d&apos;emails.
                              Un espace administrateur permet de visualiser les achats réalisés, offrant ainsi une gestion simplifiée des transactions et des interactions clients.</p>
                       </div>
                       <div className="relative md:w-1/2 flex items-center justify-center h-64 md:h-auto">
@@ -260,12 +260,12 @@ export default function Home() {
               <CarouselItem>
               <Card className="md:p-4">
                   <CardHeader>
-                    <CardTitle className="text-3xl text-center">Développeur full-stack chez Pet's Rescue</CardTitle>
+                    <CardTitle className="text-3xl text-center">Développeur full-stack chez Pet&apos;s Rescue</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <div className="flex flex-col md:flex-row">
                       <div className="md:w-1/2">
-                        <p>En tant que consultant chez Astek, j&apos;ai collaboré au développement d'une application web innovante pour une association visant à faciliter l&apos;adoption de poules pondeuses en fin de parcours commercial.
+                        <p>En tant que consultant chez Astek, j&apos;ai collaboré au développement d&apos;une application web innovante pour une association visant à faciliter l&apos;adoption de poules pondeuses en fin de parcours commercial.
                            En équipe, nous avons utilisé Symfony pour le backend et Vue.js avec TypeScript pour le frontend, en intégrant Docker pour une gestion simplifiée des environnements et Git pour le suivi de version.
                             Ce projet, toujours en cours de développement, m&apos;a permis d&apos;optimiser les fonctionnalités de l&apos;application ou d&apos;en créer de nouvelles,
                              tout en contribuant à une expérience utilisateur fluide et moderne.</p>
@@ -296,9 +296,9 @@ export default function Home() {
                   <CardContent>
                     <div className="flex flex-col md:flex-row">
                       <div className="md:w-1/2">
-                        <p>En tant que consultant chez Astek, j'ai participé au développement d'une application intranet pour Technal, visant à simplifier les processus de travail des employés.
+                        <p>En tant que consultant chez Astek, j&apos;ai participé au développement d&apos;une application intranet pour Technal, visant à simplifier les processus de travail des employés.
                            Le projet, développé avec PHP natif pour le backend, s&apos;appuie sur une base de données PostgreSQL de grande envergure,
-                            gérée via DBeaver, pour répondre aux besoins complexes de Technal dans l'industrie de l'aluminium.
+                            gérée via DBeaver, pour répondre aux besoins complexes de Technal dans l&apos;industrie de l&apos;aluminium.
                              Mon rôle a impliqué une écoute attentive des employés afin de rédiger un cahier des charges précis et adapté, garantissant ainsi une application qui répond efficacement aux attentes opérationnelles de l&apos;entreprise.</p>
                       </div>
                       <div className="relative md:w-1/2 flex items-center justify-center h-64 md:h-auto">
@@ -329,7 +329,7 @@ export default function Home() {
                       <div className="md:w-1/2">
                         <p>Participation au développement d&apos;une application web de gestion de budget pour le Ministère des Armées, en utilisant Symfony 6, HTML, CSS, et JavaScript.
                            En tant que membre d&apos;une équipe sous la méthode agile de cinq personnes, incluant un lead développeur, un développeur, un Scrum Master et un chef de projet,
-                            j&apos;ai contribué à la mise en place d'une solution robuste et évolutive.
+                            j&apos;ai contribué à la mise en place d&apos;une solution robuste et évolutive.
                              Le projet a intégré Git et Docker pour assurer une gestion de version fluide et des environnements de développement uniformes, permettant une collaboration efficace et un suivi précis des itérations.</p>
                       </div>
                       <div className="relative md:w-1/2 flex items-center justify-center h-64 md:h-auto">
