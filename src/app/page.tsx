@@ -351,8 +351,8 @@ export default function Home() {
                 </Card>
               </CarouselItem>
             </CarouselContent>
-            <CarouselPrevious className="left-2 top-[90%] md:-left-12 md:top-1/2" />
-            <CarouselNext  className="right-2 top-[90%] md:-right-12 md:top-1/2"/>
+            <CarouselPrevious className="left-2 top-[90%] md:-left-12 md:top-1/2 z-10" />
+            <CarouselNext  className="right-2 top-[90%] md:-right-12 md:top-1/2 z-10"/>
           </Carousel>
           <Image src="/embauche.svg" alt="Embauche" width={300} height={300} className="absolute top-[57rem] left-10 lg:top-8 lg:left-5 -rotate-12 dark:invert"/>
           <div className="absolute top-[64rem] left-44 lg:top-36 lg:left-36 -rotate-12">
