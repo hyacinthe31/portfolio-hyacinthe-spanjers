@@ -222,7 +222,7 @@ export default function Home() {
             <Timeline data={dataTimeline} />
           </div>
         </div>
-        <div className="w-full bg-gradient-to-b from-white to-neutral-100 dark:from-neutral-950 dark:to-neutral-800 flex flex-col items-center pb-[30rem] md:pb-16 relative" id="mesProjets">
+        <div className="w-full bg-gradient-to-b from-white to-neutral-100 dark:from-neutral-950 dark:to-neutral-800 flex flex-col items-center pb-[30rem] lg:pb-16 relative" id="mesProjets">
           <h1 className="text-5xl font-bold tracking-[-0.02em] text-center my-8">Mes projets</h1>
           <Carousel className="w-full md:w-[55%] flex items-center justify-center" opts={{loop: true, startIndex: diapIndex}}>
             <CarouselContent>
@@ -232,14 +232,14 @@ export default function Home() {
                     <CardTitle className="text-3xl text-center">Création du site web <LinkPreview url="https://toutouffe.com" className="underline" side="bottom">toutouffe.com</LinkPreview></CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <div className="flex flex-col md:flex-row">
-                      <div className="md:w-1/2">
+                    <div className="flex flex-col lg:flex-row">
+                      <div className="lg:w-1/2">
                         <p>Réalisation d&apos;un site e-commerce responsive réactif et optimisé avec Next.js, React et TypeScript pour améliorer mes compétences en développement frontend.
                            L&apos;architecture inclut une base de données PostgreSQL permettant de gérer les avis clients et les informations relatives aux achats de produits.
                             J&apos;ai intégré les API de Stripe pour la gestion des paiements sécurisés et Brevo pour l&apos;envoi automatisé d&apos;emails.
                              Un espace administrateur permet de visualiser les achats réalisés, offrant ainsi une gestion simplifiée des transactions et des interactions clients.</p>
                       </div>
-                      <div className="relative md:w-1/2 flex items-center justify-center h-64 md:h-auto">
+                      <div className="relative lg:w-1/2 flex items-center justify-center h-64 lg:h-auto">
                         <OrbitingCircles className="size-[30px] border-none bg-transparent" duration={20} delay={0} radius={60}>
                           <Icons.react />
                         </OrbitingCircles>
@@ -263,14 +263,14 @@ export default function Home() {
                     <CardTitle className="text-3xl text-center">Développeur full-stack chez Pet&apos;s Rescue</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <div className="flex flex-col md:flex-row">
-                      <div className="md:w-1/2">
+                    <div className="flex flex-col lg:flex-row">
+                      <div className="lg:w-1/2">
                         <p>En tant que consultant chez Astek, j&apos;ai collaboré au développement d&apos;une application web innovante pour une association visant à faciliter l&apos;adoption de poules pondeuses en fin de parcours commercial.
                            En équipe, nous avons utilisé Symfony pour le backend et Vue.js avec TypeScript pour le frontend, en intégrant Docker pour une gestion simplifiée des environnements et Git pour le suivi de version.
                             Ce projet, toujours en cours de développement, m&apos;a permis d&apos;optimiser les fonctionnalités de l&apos;application ou d&apos;en créer de nouvelles,
                              tout en contribuant à une expérience utilisateur fluide et moderne.</p>
                       </div>
-                      <div className="relative md:w-1/2 flex items-center justify-center h-64 md:h-auto">
+                      <div className="relative lg:w-1/2 flex items-center justify-center h-64 lg:h-auto">
                         <OrbitingCircles className="size-[30px] border-none bg-transparent" duration={20} delay={0} radius={60}>
                           <Icons.vue />
                         </OrbitingCircles>
@@ -294,14 +294,14 @@ export default function Home() {
                     <CardTitle className="text-3xl text-center">Développeur full-stack chez Technal</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <div className="flex flex-col md:flex-row">
-                      <div className="md:w-1/2">
+                    <div className="flex flex-col lg:flex-row">
+                      <div className="lg:w-1/2">
                         <p>En tant que consultant chez Astek, j&apos;ai participé au développement d&apos;une application intranet pour Technal, visant à simplifier les processus de travail des employés.
                            Le projet, développé avec PHP natif pour le backend, s&apos;appuie sur une base de données PostgreSQL de grande envergure,
                             gérée via DBeaver, pour répondre aux besoins complexes de Technal dans l&apos;industrie de l&apos;aluminium.
                              Mon rôle a impliqué une écoute attentive des employés afin de rédiger un cahier des charges précis et adapté, garantissant ainsi une application qui répond efficacement aux attentes opérationnelles de l&apos;entreprise.</p>
                       </div>
-                      <div className="relative md:w-1/2 flex items-center justify-center h-64 md:h-auto">
+                      <div className="relative lg:w-1/2 flex items-center justify-center h-64 lg:h-auto">
                         <OrbitingCircles className="size-[30px] border-none bg-transparent" duration={20} delay={0} radius={60}>
                           <Icons.php />
                         </OrbitingCircles>
@@ -325,14 +325,14 @@ export default function Home() {
                     <CardTitle className="text-3xl text-center">Développeur full-stack chez Klee Group</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <div className="flex flex-col md:flex-row">
-                      <div className="md:w-1/2">
+                    <div className="flex flex-col lg:flex-row">
+                      <div className="lg:w-1/2">
                         <p>Participation au développement d&apos;une application web de gestion de budget pour le Ministère des Armées, en utilisant Symfony 6, HTML, CSS, et JavaScript.
                            En tant que membre d&apos;une équipe sous la méthode agile de cinq personnes, incluant un lead développeur, un développeur, un Scrum Master et un chef de projet,
                             j&apos;ai contribué à la mise en place d&apos;une solution robuste et évolutive.
                              Le projet a intégré Git et Docker pour assurer une gestion de version fluide et des environnements de développement uniformes, permettant une collaboration efficace et un suivi précis des itérations.</p>
                       </div>
-                      <div className="relative md:w-1/2 flex items-center justify-center h-64 md:h-auto">
+                      <div className="relative lg:w-1/2 flex items-center justify-center h-64 lg:h-auto">
                         <OrbitingCircles className="size-[30px] border-none bg-transparent" duration={20} delay={0} radius={60}>
                           <Icons.symfony />
                         </OrbitingCircles>
@@ -354,14 +354,14 @@ export default function Home() {
             <CarouselPrevious className="left-2 top-[90%] md:-left-12 md:top-1/2" />
             <CarouselNext  className="right-2 top-[90%] md:-right-12 md:top-1/2"/>
           </Carousel>
-          <Image src="/embauche.svg" alt="Embauche" width={300} height={300} className="absolute top-[57rem] left-10 md:top-8 md:left-5 -rotate-12 dark:invert"/>
-          <div className="absolute top-[64rem] left-44 md:top-36 md:left-36 -rotate-12">
+          <Image src="/embauche.svg" alt="Embauche" width={300} height={300} className="absolute top-[57rem] left-10 lg:top-8 lg:left-5 -rotate-12 dark:invert"/>
+          <div className="absolute top-[64rem] left-44 lg:top-36 lg:left-36 -rotate-12">
             <CoolMode>
               <Button>Appuyez ici</Button>
             </CoolMode>
           </div>
-          <Image src="/embauche-2.svg" alt="Emabauche 2" width={300} height={300} className="absolute top-[70rem] right-10 md:top-80 md:right-5 rotate-12 dark:invert"/>
-          <div className="absolute top-[77rem] right-40 md:top-[27rem] md:right-36 rotate-12">
+          <Image src="/embauche-2.svg" alt="Emabauche 2" width={300} height={300} className="absolute top-[70rem] right-10 lg:top-80 lg:right-5 rotate-12 dark:invert"/>
+          <div className="absolute top-[77rem] right-40 lg:top-[27rem] lg:right-36 rotate-12">
             <ConfettiButton>
               Appuyez là
             </ConfettiButton>
@@ -378,14 +378,14 @@ export default function Home() {
             <MdEmail className="animate-bounce delay-500"/>
             <p>&nbsp;: hyacinthe.spanjers@gmail.com</p>
           </div>
-          <div className="flex mt-36 md:mt-12 flex-col items-center md:flex-row">
+          <div className="flex mt-36 lg:mt-12 flex-col items-center md:flex-row">
             <Image src="/au-revoir.svg" alt="Au revoir" width={200} height={200} className="dark:invert"/>
             <Image src="/au-revoir-main.svg" alt="Au revoir main" width={100} height={100} className="transition-transform duration-300 ease-in-out hover:animate-wave"/>
           </div>
-          <div className="absolute top-48 right-44 md:right-64 md:top-24">
+          <div className="absolute top-48 right-44 lg:right-64 lg:top-24">
             <Image src="/fleche-cv.svg" alt="Fleche CV" width={150} height={150} className="dark:invert"/>
           </div>
-          <div className="absolute top-52 right-5 md:right-24 md:top-28 -rotate-3">
+          <div className="absolute top-52 right-5 lg:right-24 lg:top-28 -rotate-3">
             <Button className="mt-4">
               <a href="/Hyacinthe_Spanjers_CV_2024.pdf" download className="btn">Télécharger mon CV</a>
             </Button>
