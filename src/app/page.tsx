@@ -387,7 +387,7 @@ export default function Home() {
           </div>
           <div className="absolute top-52 right-5 lg:right-24 lg:top-28 -rotate-3">
             <Button className="mt-4">
-              <a href="/Hyacinthe_Spanjers_CV_2024.pdf" download className="btn">Télécharger mon CV</a>
+              <a href="/Hyacinthe_Spanjers_CV.pdf" download className="btn">Télécharger mon CV</a>
             </Button>
           </div>
         </div>
