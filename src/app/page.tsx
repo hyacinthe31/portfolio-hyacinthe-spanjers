@@ -100,7 +100,7 @@ export default function Home() {
 
   const dataTimeline = [
     {
-      title: "Août 2024-Aujourd'hui",
+      title: "Octobre 2024-Janvier 2025",
       content: (
         <div>
           <div className="flex items-center">
@@ -115,7 +115,7 @@ export default function Home() {
       )
     },
     {
-      title: "Mars 2024-Juillet 2024",
+      title: "Mars 2024-Septembre 2024",
       content: (
         <div>
           <div className="flex items-center">
